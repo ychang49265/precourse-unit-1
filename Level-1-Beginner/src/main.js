@@ -2,7 +2,7 @@
 // ex: addTwo(5); -> 7
 // ex: addTwo(6); -> 8
 function addTwo(number) {
-	//CODE HERE
+  // CODE HERE
 
 }
 
@@ -10,7 +10,7 @@ function addTwo(number) {
 // adds the two inputted numbers together
 // ex: add(5, 10); -> 15
 function add(num1, num2) {
-	//CODE HERE
+  // CODE HERE
 
 }
 
@@ -19,7 +19,7 @@ function add(num1, num2) {
 // ex: addd(1,2,3); -> 6
 // ex: addd(2,4,2); -> 8
 function addd(value1, value2, value3) {
-	//CODE HERE
+  // CODE HERE
 
 }
 
@@ -27,7 +27,7 @@ function addd(value1, value2, value3) {
 // subtracts the second inputted number from the first inputted number
 // ex: subtract(5, 10); -> -5
 function subtract(n1, n2) {
-	//CODE HERE
+  // CODE HERE
 
 }
 
@@ -36,7 +36,7 @@ function subtract(n1, n2) {
 // ex: multiplyByTwo(5); -> 10
 // ex: multiplyByTwo(6); -> 12
 function multiplyByTwo(numero) {
-	//CODE HERE
+  // CODE HERE
 
 }
 
@@ -45,7 +45,7 @@ function multiplyByTwo(numero) {
 // ex: multiply(1,2); -> 2
 // ex: multiply(2,2); -> 4
 function multiply(val1, val2) {
-	//CODE HERE
+  // CODE HERE
 
 }
 
@@ -54,7 +54,7 @@ function multiply(val1, val2) {
 // ex: multiplyy(1,2,3); -> 6
 // ex: multiplyy(2,2,3); -> 12
 function multiplyy(a, b, c) {
-	//CODE HERE
+  // CODE HERE
 
 }
 
@@ -62,7 +62,7 @@ function multiplyy(a, b, c) {
 // returns the square of the inputted number
 // ex: square(5); -> 25
 function square(value) {
-	//CODE HERE
+  // CODE HERE
 
 }
 
@@ -73,7 +73,7 @@ function square(value) {
 // ex: isOdd(4); -> false
 // ex: isOdd(5); -> true
 function isOdd(num) {
-	//CODE HERE
+  // CODE HERE
 
 }
 
@@ -85,7 +85,7 @@ function isOdd(num) {
 // ex: isNegative(1); -> false
 // ex: isNegative(0); -> false
 function isNegative(num) {
-	//CODE HERE
+  // CODE HERE
 
 }
 
@@ -94,7 +94,7 @@ function isNegative(num) {
 // ex: positive(-1); -> 1
 // ex: positive(1); -> 1
 function positive(num) {
-	//CODE HERE
+  // CODE HERE
 
 }
 
@@ -102,7 +102,7 @@ function positive(num) {
 // isNumber(5); → true
 // isNumber('hi'); → false
 function isNumber(value) {
-	//CODE HERE
+  // CODE HERE
 
 }
 
@@ -110,7 +110,7 @@ function isNumber(value) {
 // isArray(5); → false
 // isArray([1,2,3]); → true
 function isArray(value) {
-	//CODE HERE
+  // CODE HERE
 
 }
 
@@ -118,7 +118,7 @@ function isArray(value) {
 // isObject(5); → false
 // isObject([1,2,3]); → true
 function isObject(value) {
-	//CODE HERE
+  // CODE HERE
 
 }
 
@@ -126,7 +126,7 @@ function isObject(value) {
 // isNull(null); -> true
 // isNull(5); -> false
 function isNull(value) {
-	//CODE HERE
+  // CODE HERE
 
 }
 
