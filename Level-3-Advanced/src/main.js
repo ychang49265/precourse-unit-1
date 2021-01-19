@@ -1,11 +1,11 @@
 // Iterates over elements of an array invoking callback for each element. The callback should be passed the element, the current index, and the entire array.
 // const callback = function(element, index, array) {
-//  console.log(element +"," +index +"," +array);
+//   console.log(element +"," +index +"," +array);
 // }
 // forEach(['a','b','c'], callback); → prints a,0,['a','b','c'] b,1,['a','b','c'] c,2,['a','b','c']
 // For each element in the array, the callback we passed is called. The callback can be customized, but in the above example, the callback prints out the element, index, and entire array.
 function forEach(array, callback) {
-
+  // CODE HERE
 }
 
 // Creates an array of values by running each element in collection through callback
@@ -16,7 +16,7 @@ function forEach(array, callback) {
 // }); -> [3,6,9]
 // BONUS: use the forEach method you use to create map
 function map(array, callback) {
-
+  // CODE HERE
 }
 
 // Iterates over elements of collection, returning an Array of all elements callback returns truthy for.
@@ -27,7 +27,7 @@ function map(array, callback) {
 //  return element % 2 !== 0;
 // }); → [1,3]
 function filter(collection, callback) {
-
+  // CODE HERE
 }
 
 // Removes all elements from array that callback returns truthy for and returning a collection of elements that did not pass the truthy test.
@@ -40,14 +40,14 @@ function filter(collection, callback) {
 // }); → {b:2, d:4}
 // Challenge: use filter
 function reject(collection, callback) {
-
+  // CODE HERE
 }
 
 // Creates an array without duplicate values from the inputted array.
 // The order of the array is preserved.
 // uniq([1,2,1]); → [1,2]
 function uniq(array) {
-	//CODE HERE
+  // CODE HERE
 
 }
 
@@ -57,7 +57,7 @@ function uniq(array) {
 // indexOf([11,22,33], 11); → 0
 // indexOf([11,22,33], 5); → -1
 function indexOf(array, value) {
-	//CODE HERE
+  // CODE HERE
 
 }
 
@@ -65,7 +65,7 @@ function indexOf(array, value) {
 // Returns a function that is restricted to invoking func once.
 // Repeat calls to the function return the value of the first call.
 function once(func) {
-	//CODE HERE
+  // CODE HERE
 
 }
 
@@ -78,7 +78,7 @@ function once(func) {
 //  return stored + current;
 // },1); → 4
 function reduce(array, callback, start) {
-
+  // CODE HERE
 }
 
 // Takes an array and a function as arguments.
@@ -92,18 +92,18 @@ function reduce(array, callback, start) {
 // });  -> false
 // BONUS: use reduce in your answer
 function every(array, func) {
-	//CODE HERE
+  // CODE HERE
 
 }
 
 // Flattens a nested array.
 // flatten([1, [2, 3, [4]]]); → [1, 2, 3, [4]]
 function flatten(array) {
-
+  // CODE HERE
 }
 
 // Recursively flattens a nested array.
 // flattenDeep([1, [2, 3, [4]]]); → [1, 2, 3, 4]
 function flattenDeep(array) {
-
+  // CODE HERE
 }
