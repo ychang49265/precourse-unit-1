@@ -31,12 +31,14 @@ function trim(string) {
   // CODE HERE
 }
 
-// returns an empty object that has methods which give the object functionality that is found in arrays. this object should have the following methods:
-// push(val) adds val to the end of the array
-// pop() removes a value from the end and returns it
-// unshift(val) adds val to the beginning of the array
-// shift() removes a value from the beginning and returns it
-// the goal of this problem is to reverse engineer what array methods are actually doing and return an object that has those methods
+// under the hood, a JavaScript array is a specific type of object in which values are paired with sequentially numbered keys.
+// the "Array" object also contains a number of methods that give arrays their functionality.
+// the below function should return an empty object that has the behavior and functionality of an array. this object should have the following methods:
+  // push(val) adds val to the end
+  // pop() removes a value from the end and returns it
+  // unshift(val) adds val to the beginning
+  // shift() removes a value from the beginning and returns it
+// the goal of this problem is to reverse engineer what array methods are actually doing and create an object that has those methods
 function createArray() {
   // CODE HERE
 
