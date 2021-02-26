@@ -32,7 +32,7 @@ If you hit a block, consider the best search request to make on google and searc
   git clone THE_URL_YOU_COPIED
   ```
 
-Bonus video on using Git and GitHub <https://www.youtube.com/watch?v=tRTckrrCME4>
+For additional information on using Git and GitHub, watch this bonus video: <https://www.youtube.com/watch?v=tRTckrrCME4>
 
 
 ## What do I do when I am done with a unit?
