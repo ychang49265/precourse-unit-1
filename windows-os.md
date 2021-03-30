@@ -23,3 +23,16 @@ Note that these instructions are adapted from the [manual installation steps](ht
    ```
    dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
    ```
+
+3. Enable Virtual Machine feature
+   1. You should still have the PowerShell terminal window open. If not, refer to the instructions above and ensure that you Run as Administrator.
+
+   2. Copy this command, paste it into PowerShell, and run it.
+   ```
+   dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
+   ```
+   
+   3. Restart your machine.
+   
+   4. _Important!_ Your machine will require virtualization features in order to enable the Virtual Machine feature on Windows. If you encounter an error [similar to this one](https://docs.microsoft.com/en-us/windows/wsl/troubleshooting#error-0x80370102-the-virtual-machine-could-not-be-started-because-a-required-feature-is-not-installed), you will need to enable virtualization in your computer's BIOS. The process for doing this will vary from machine to machine, so you may need to do some additional research. Here is [an example](https://www.bleepingcomputer.com/tutorials/how-to-enable-cpu-virtualization-in-your-computer-bios/) of what you might have to do. Searching on Google for "Enable CPU virtualization in BIOS" and your computer's make and model may also prove to be helpful. **When making any changes to a computer's BIOS settings, please follow the directions extremely carefully! Do not change any other settings unless you know exactly what they do.**
+
