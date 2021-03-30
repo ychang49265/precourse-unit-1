@@ -14,4 +14,4 @@ Being comfortable with common Linux command-line tools is an expected skill for 
 ## Instructions
 Note that these instructions are adapted from the [manual installation steps](https://docs.microsoft.com/en-us/windows/wsl/install-win10#manual-installation-steps) via Microsoft's documentation.
 
-1. Ensure that your machine is running Windows 10, [updated to version 2004](ms-settings:windowsupdate), **Build 18362** or higher.
+1. Ensure that your machine is running Windows 10, updated to **Version 2004**, **Build 18362** or higher.
