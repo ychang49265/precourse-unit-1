@@ -11,3 +11,7 @@ Some cross-platform tools were built assuming that the environment in which they
 
 Being comfortable with common Linux command-line tools is an expected skill for any software engineer. A lot of the resources and documentation found online is also written with a Linux-environment in mind, so not having to translate Linux commands to their Windows equivalents is one less thing to think about when learning the curriculum material.
 
+## Instructions
+Note that these instructions are adapted from the [manual installation steps](https://docs.microsoft.com/en-us/windows/wsl/install-win10#manual-installation-steps) via Microsoft's documentation.
+
+1. Ensure that your machine is running Windows 10, [updated to version 2004](ms-settings:windowsupdate), **Build 18362** or higher.
