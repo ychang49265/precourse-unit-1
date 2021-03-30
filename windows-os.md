@@ -15,3 +15,11 @@ Being comfortable with common Linux command-line tools is an expected skill for 
 Note that these instructions are adapted from the [manual installation steps](https://docs.microsoft.com/en-us/windows/wsl/install-win10#manual-installation-steps) via Microsoft's documentation.
 
 1. Ensure that your machine is running Windows 10, updated to **Version 2004**, **Build 18362** or higher.
+
+2. Enable the "Windows Subsystem for Linux" optional feature.
+   1. Click the Start Menu, search for PowerShell, and Run as Administrator. A terminal window should open up.
+
+   2. Copy this command, paste it into PowerShell, and run it.
+   ```
+   dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
+   ```
