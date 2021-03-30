@@ -14,7 +14,7 @@ Being comfortable with common Linux command-line tools is an expected skill for 
 ## Instructions
 Note that these instructions are adapted from the [manual installation steps](https://docs.microsoft.com/en-us/windows/wsl/install-win10#manual-installation-steps) via Microsoft's documentation.
 
-1. Ensure that your machine is running Windows 10, updated to **Version 2004**, **Build 18362** or higher.
+1. Ensure that your machine is running Windows 10, updated to **Version 2004**, **Build 18362** or higher. These instructions also assume your machine is running with an Intel or AMD CPU (**not** ARM-based).
 
 2. Enable the "Windows Subsystem for Linux" optional feature.
    1. Click the Start Menu, search for PowerShell, and Run as Administrator. A terminal window should open up.
@@ -36,3 +36,7 @@ Note that these instructions are adapted from the [manual installation steps](ht
    
    4. _Important!_ Your machine will require virtualization features in order to enable the Virtual Machine feature on Windows. If you encounter an error [similar to this one](https://docs.microsoft.com/en-us/windows/wsl/troubleshooting#error-0x80370102-the-virtual-machine-could-not-be-started-because-a-required-feature-is-not-installed), you will need to enable virtualization in your computer's BIOS. The process for doing this will vary from machine to machine, so you may need to do some additional research. Here is [an example](https://www.bleepingcomputer.com/tutorials/how-to-enable-cpu-virtualization-in-your-computer-bios/) of what you might have to do. Searching on Google for "Enable CPU virtualization in BIOS" and your computer's make and model may also prove to be helpful. **When making any changes to a computer's BIOS settings, please follow the directions extremely carefully! Do not change any other settings unless you know exactly what they do.**
 
+4. Download the Linux kernel update package
+   1. Download the latest package [here](https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi). If you prefer, you can find that link directly from Microsoft's [site](https://docs.microsoft.com/en-us/windows/wsl/install-win10#step-4---download-the-linux-kernel-update-package).
+   
+   2. Run the update package in the previous step. Double click to run - you will be prompted for elevated permission, select 'yes' to approve this installation.
