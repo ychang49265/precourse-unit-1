@@ -49,3 +49,20 @@ Note that these instructions are adapted from the [manual installation steps](ht
    ```
    wsl --set-default-version 2
    ```
+
+### 6. Install Ubuntu 20.04 LTS
+  1. Visit the [Microsoft Store](https://www.microsoft.com/store/apps/9n6svws3rx71) and select Get to begin the download and install process of Ubuntu 20.04 LTS (Long-Term Support).
+
+  2. The first time you launch a newly installed Linux distribution, a console window will open and you'll be asked to wait for a minute or two for files to de-compress and be stored on your machine. All future launches should take less than a second.
+
+  3. You will then need to create a user account and password for your new Linux distribution. Note that this has no bearing on your Windows user name. Once you create a user name and password, the account will be the default user and will automatically sign-in on launch.
+
+## Congratulations, you've successfully installed and setup WSL on your machine!
+
+You can now open another PowerShell terminal window and run the ```wsl``` command. You're now running a native Linux environment directly in Windows!
+
+However, we've still got a few more things to take care of: 
+   - Integrating VSCode to work with WSL
+   - Setting up Node.js
+
+# Setting up Visual Studio Code with WSL
