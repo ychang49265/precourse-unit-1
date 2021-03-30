@@ -1,6 +1,6 @@
 # Setting up the Windows Subsystem for Linux
 
-## What is the Windows Subsystem for Linux (WSL)
+## What is the Windows Subsystem for Linux (WSL)?
 
 "The Windows Subsystem for Linux lets developers run a GNU/Linux environment -- including most command line tools, utilities, and applications -- directly on Windows, unmodified, without the overhead of a traditional virtual machine or dualboot setup." - [Microsoft](https://docs.microsoft.com/en-us/windows/wsl/about)
 
