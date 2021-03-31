@@ -112,8 +112,9 @@ You can also click that green indicator in the bottom left corner to launch a ne
 
 # Install `nvm`, `node.js`, and `npm` on WSL
 
-There are multiple ways to install Node.js. We recommnd using a version manager as it takes care of handling the install process near seamlessly. Node Version Manager, more commonly called nvm, is the most popular way to install multiple versions of
-Node.js (though we will only install one).
+There are multiple ways to install Node.js. We recommnd using a version manager as it takes care of handling the install process near seamlessly. Node Version Manager, more commonly called nvm, is the most popular way to install multiple versions of Node.js (though we will only install one).
+
+Note that these instructions are adapted from the [Microsoft documentation on installing Node.js on WSL2](https://docs.microsoft.com/en-us/windows/nodejs/setup-on-wsl2#install-nvm-nodejs-and-npm).
 
 ## Instructions
 
