@@ -102,7 +102,7 @@ When you launch VS Code, it will not immediately connect to WSL. Follow the step
 
     ![wsl-starting-notification](https://github.com/CodesmithLLC/precourse-part-1/blob/master/docs/assets/images/wsl-starting-notification.png)
 
-VS Code will now continue to configure itself in WSL and keep you up to date as it makes progress.
+    VS Code will now continue to configure itself in WSL and keep you up to date as it makes progress.
 
 4.  Once finished, you now see a WSL indicatior in the bottom left corner, and you'll be able to use VS Code as you normally would.
 
