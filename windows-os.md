@@ -75,7 +75,7 @@ You can now open another PowerShell terminal window and run the `wsl` command. Y
 However, we've still got a few more things to take care of:
 
 - Integrating VSCode to work with WSL
-- Setting up Node.js
+- Installing Node.js
 
 # Setting up Visual Studio Code with WSL
 
@@ -108,4 +108,4 @@ When you launch VS Code, it will not immediately connect to WSL. Follow the step
 
     ![wsl-statusbar-indicator](https://github.com/CodesmithLLC/precourse-part-1/blob/master/docs/assets/images/wsl-statusbar-indicator.png)
 
-You can also click that green indicator in the bottom left corner and launch a new WSL VS Code window.
+You can also click that green indicator in the bottom left corner to launch a new WSL VS Code window.
