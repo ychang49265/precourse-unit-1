@@ -97,7 +97,7 @@ Note that these instructions are adapted from the [Visual Studio Code documentat
 When you launch VS Code, it will not immediately connect to WSL. Follow the steps below to connect VS Code to WSL.
 
 1.  Start VS Code.
-2.  Press `F1`, select **Remote-WSL: New Window**. When doing this for the first time, you may see VS Code fetching components needed to run in WSL. This should only take a short while, and is only needed once.
+2.  Press `F1`, type in **Remote-WSL: New Window** and click it. When doing this for the first time, you may see VS Code fetching components needed to run in WSL. This should only take a short while, and is only needed once.
 3.  After a moment, a new VS Code window will appear, and you'll see a notification that VS Code is opening in WSL.
 
     ![wsl-starting-notification](https://github.com/CodesmithLLC/precourse-part-1/blob/master/docs/assets/images/wsl-starting-notification.png)
@@ -108,7 +108,7 @@ When you launch VS Code, it will not immediately connect to WSL. Follow the step
 
     ![wsl-statusbar-indicator](https://github.com/CodesmithLLC/precourse-part-1/blob/master/docs/assets/images/wsl-statusbar-indicator.png)
 
-You can also click that green indicator in the bottom left corner to launch a new WSL VS Code window.
+_Note_: You can also click that green indicator in the bottom left corner to launch a new WSL VS Code window.
 
 # Install `nvm`, `node.js`, and `npm` on WSL
 
