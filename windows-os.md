@@ -107,3 +107,5 @@ When you launch VS Code, it will not immediately connect to WSL. Follow the step
 4.  Once finished, you now see a WSL indicatior in the bottom left corner, and you'll be able to use VS Code as you normally would.
 
     ![wsl-statusbar-indicator](https://github.com/CodesmithLLC/precourse-part-1/blob/master/docs/assets/images/wsl-statusbar-indicator.png)
+
+You can also click that green indicator in the bottom left corner and launch a new WSL VS Code window.
