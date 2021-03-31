@@ -62,7 +62,7 @@ wsl --set-default-version 2
 
 ### 6. Install Ubuntu 20.04 LTS
 
-1. Visit the [Microsoft Store](https://www.microsoft.com/store/apps/9n6svws3rx71) and select Get to begin the download and install process of Ubuntu 20.04 LTS (Long-Term Support).
+1. Visit the [Microsoft Store](https://www.microsoft.com/store/apps/9n6svws3rx71) and select `Get` to begin the download and install process of Ubuntu 20.04 LTS (Long-Term Support).
 
 2. The first time you launch a newly installed Linux distribution, a console window will open and you'll be asked to wait for a minute or two for files to de-compress and be stored on your machine. All future launches should take less than a second.
 
