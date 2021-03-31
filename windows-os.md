@@ -118,7 +118,7 @@ Note that these instructions are adapted from the [Microsoft documentation on in
 
 ## Instructions
 
-1. Open a terminal in VS Code. Make that you are running it in WSL! Check the bottom left corner for that green indicator!
+1. Open a terminal in VS Code. Make sure that you are running it in WSL! Check the bottom left corner for that green indicator!
 2. Copy the following command and run it in the terminal:
 
    `cd ~`
