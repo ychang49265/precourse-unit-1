@@ -153,7 +153,7 @@ Note that these instructions are adapted from the [Microsoft documentation on in
 
    `nvm ls`
 
-   You should see the the something similar to the image below in your terminal.
+   You should see something similar to the image below in your terminal.
 
    ![wsl-nvm-ls](https://github.com/CodesmithLLC/precourse-part-1/blob/master/docs/assets/images/wsl-nvm-ls-14160.png)
 
