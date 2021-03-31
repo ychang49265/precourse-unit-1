@@ -85,12 +85,12 @@ Note that these instructions are adapted from the [Visual Studio Code documentat
 
 ## 1. Install Visual Studio Code on the **Windows** side (not in WSL)
 
-1.  [Download VSCode](https://code.visualstudio.com/)
-    - When prompted to **Select Additional Tasks** during installation, be sure to check the **Add to PATH** option so you can easily open a folder in WSL using the `code` command.
+- [Download VSCode](https://code.visualstudio.com/)
+  - When prompted to **Select Additional Tasks** during installation, be sure to check the **Add to PATH** option so you can easily open a folder in WSL using the `code` command.
 
 ## 2. Install the Remote Development extension pack
 
-1.  [Download Remote Development extension pack](https://aka.ms/vscode-remote/download/extension)
+- [Download Remote Development extension pack](https://aka.ms/vscode-remote/download/extension)
 
 # Running WSL from VS Code
 
