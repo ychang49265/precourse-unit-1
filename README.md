@@ -11,9 +11,9 @@ This precourse will truly help you understand the core material and get you read
 If this is challenging, don't be worried! Getting used to the challenge will be a great asset to you throughout the Codesmith program and your entire development career.
 
 ## What OS should I be using?
-- If you're using Mac OSX, you're going to be okay. We use macs here, too!
+- If you're using Mac OS, you're going to be okay. We use macs here, too!
 - Linux users, you have nothing to fear either.
-- If you're using Windows, we recommend installing Ubuntu and learning how to use linux and unix commands. Follow [this link](http://www.ubuntu.com/download/desktop). You don't have to pay for it! Follow the installation guide, Learn how to install software with your terminal, and you'll be on your way to linux mastery.
+- If you're using Windows, we recommend installing the Windows Subsystem for Linux (WSL). Follow [this link](https://github.com/CodesmithLLC/precourse-part-1/blob/master/windows-os.md). 
 
 ## How do I get started?
 - Read [You Need to Learn The Command Line](#you-need-to-learn-the-command-line) and [You Need to Know How To Use Github!](#you-need-to-know-how-to-use-github)
