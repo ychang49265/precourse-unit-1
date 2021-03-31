@@ -109,3 +109,57 @@ When you launch VS Code, it will not immediately connect to WSL. Follow the step
     ![wsl-statusbar-indicator](https://github.com/CodesmithLLC/precourse-part-1/blob/master/docs/assets/images/wsl-statusbar-indicator.png)
 
 You can also click that green indicator in the bottom left corner to launch a new WSL VS Code window.
+
+# Install `nvm`, `node.js`, and `npm` on WSL
+
+There are multiple ways to install Node.js. We recommnd using a version manager as it takes care of handling the install process near seamlessly. Node Version Manager, more commonly called nvm, is the most popular way to install multiple versions of
+Node.js (though we will only install one).
+
+## Instructions
+
+1. Open a terminal in VS Code. Make that you are running it in WSL! Check the bottom left corner for that green indicator!
+2. Copy the following command and run it in the terminal:
+
+   `cd ~`
+
+   This changes the current directory in the terminal to your Ubuntu home directory.
+
+3. Before we continue, we will update Ubuntu to make sure we have the latest updates installed. Run the following command in the terminal:
+
+   `sudo apt update && sudo apt upgrade`
+
+4. Install nvm with the following command:
+
+   `curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash`
+
+   This command uses cURL (a tool command line tool used for downloading content from the internet) to download a Bash script and then executes it to install nvm.
+
+   _Note: At the time of writing, NVM **v0.38.0** was the most recent version available. You can check the [GitHub project page](https://github.com/nvm-sh/nvm) for the latest release of NVM, and adjust the above command to include the the newest version._
+
+5. Verify the installation by running the following command:
+
+   `command -v nvm`
+
+   This should return 'nvm' in your terminal. If you receive 'command not found' or no response at all, close your current terminal, reopen it, and run the command again.
+
+6. Install the latest stable LTS release of Node.js by running the following command:
+
+   `nvm install --lts`
+
+   _Note: At the time of writing, the latest stable LTS release of Node.js is **14.16.0**._
+
+7. Verify what version of Node is installed by running the following command:
+
+   `nvm ls`
+
+   You should see the the something similar to the image below in your terminal.
+
+   ![wsl-nvm-ls](https://github.com/CodesmithLLC/precourse-part-1/blob/master/docs/assets/images/wsl-nvm-ls-14160.png)
+
+8. Verify that Node.js is installed and the currently default version with the following command:
+
+   `node --version`
+
+   Then verify that you have npm as well with:
+
+   `npm --version`
