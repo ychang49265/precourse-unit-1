@@ -20,7 +20,7 @@ Note that these instructions are adapted from the [manual installation steps](ht
 
 ### 1. Ensure that your machine is running Windows 10, updated to **Version 2004**, **Build 18362** or higher. These instructions also assume your machine is running with an Intel or AMD CPU (**not** ARM-based).
 
-### 2. Enable the "Windows Subsystem for Linux" optional feature.
+### 2. Enable the "Windows Subsystem for Linux" optional feature
 
 1.  Click the Start Menu, search for PowerShell, and Run as Administrator. A terminal window should open up.
 
