@@ -163,3 +163,15 @@ Node.js (though we will only install one).
    Then verify that you have npm as well with:
 
    `npm --version`
+
+# Additional Notes
+
+With WSL, there is one extra step if you ever want to see your files in a GUI File Explorer instead of just the command line. The following two-step process is what you would do in order to open a File Explorer window that shows your current directory of files.
+
+1. Use the `cd` command to navigate to whichever directory you want to open with File Explorer.
+
+2. Once you are in the directory you wish to be in, run the following command:
+
+   `explorer.exe .`
+
+   Take note of the extra `.` at the end of the command. The `.` represents the current directory. So when we run the `explorer.exe` command, we are simply passing in the path to the folder we want it to open. Once it is open, you can do everything else you normally would as if you opened a normal folder on your desktop.
