@@ -18,6 +18,9 @@ Before you begin working on the precourse, please read through the instructions 
 
 Once you have everything set up, proceed on to the precourse challenges!
 
+## How do I get started?
+- After you've reviewed the setup instructions and installed everything you'll need, fork and clone this Repository (review [You Need To Know How To Use Github!](https://github.com/CodesmithLLC/dev-environment-setup#you-need-to-know-how-to-use-github) to learn how to fork and clone repositories)
+
 ## Instructions For The Precourse Challenges:
 
 We divided part 1 of the precourse challenges into three different levels. Each level has its own folder. Each folder consists of four items (ignore any other files/folders or items you see):
