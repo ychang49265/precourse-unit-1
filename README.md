@@ -42,7 +42,7 @@ The Skill Builder File provides resources to instruct you on these challenges if
 
 ## What do I do when I am done?
 
-Please read the portion labeled **"What do I do when I am done with a unit?"** in the following link: [pushing to Github](https://github.com/CodesmithLLC/precourse-JSFundamentals/blob/master/GitHub.md).
+Please read the portion labeled **"What do I do when I am done with a unit?"** in the following link: [pushing to Github](https://github.com/CodesmithLLC/dev-environment-setup/blob/main/Github.md).
 
 ## Problem solving as a software engineer
 
