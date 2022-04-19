@@ -43,3 +43,4 @@ function createArray() {
   // CODE HERE
 
 }
+console.log('hello world')
