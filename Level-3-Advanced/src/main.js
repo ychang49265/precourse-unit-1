@@ -5,7 +5,8 @@
 // forEach(['a','b','c'], callback); → prints a,0,['a','b','c'] b,1,['a','b','c'] c,2,['a','b','c']
 // For each element in the array, the callback we passed is called. The callback can be customized, but in the above example, the callback prints out the element, index, and entire array.
 function forEach(array, callback) {
-  // CODE HERE
+  array.forEach((el, index, array) => {console.log(callback(el, index, array))
+  })
 }
 
 // Creates an array of values by running each element in collection through callback
@@ -16,7 +17,9 @@ function forEach(array, callback) {
 // }); -> [3,6,9]
 // BONUS: use the forEach method you use to create map
 function map(array, callback) {
-  // CODE HERE
+  return array.map(el => {
+    return callback(el)
+  })
 }
 
 // Iterates over elements of collection, returning an Array of all elements callback returns truthy for.
@@ -27,7 +30,7 @@ function map(array, callback) {
 //  return element % 2 !== 0;
 // }); → [1,3]
 function filter(collection, callback) {
-  // CODE HERE
+  return collection.filter(el => {return callback(el)})
 }
 
 // Removes all elements from array that callback returns truthy for and returning a collection of elements that did not pass the truthy test.
@@ -40,15 +43,29 @@ function filter(collection, callback) {
 // }); → {b:2, d:4}
 // Challenge: use filter
 function reject(collection, callback) {
-  // CODE HERE
+  
+    if (!Array.isArray(collection)){
+      const newObj = {};
+      for (let key in collection){
+        if (!callback(collection[key])){
+        newObj[key] = collection[key]
+        }
+      } return newObj;
+    }
+    return collection.filter(num => {return !callback(num)})
+  
 }
 
 // Creates an array without duplicate values from the inputted array.
 // The order of the array is preserved.
 // uniq([1,2,1]); → [1,2]
 function uniq(array) {
-  // CODE HERE
-
+ return array.reduce((acc, curr) => {
+    if (!acc.includes(curr)){
+      acc.push(curr)
+    }
+    return acc;
+ }, [])
 }
 
 // Gets the index at which the first occurrence of value is found in array
@@ -57,15 +74,30 @@ function uniq(array) {
 // indexOf([11,22,33], 11); → 0
 // indexOf([11,22,33], 5); → -1
 function indexOf(array, value) {
-  // CODE HERE
-
+  
+  for (let i = 0; i < array.length; i++){
+    if (array[i] === value){
+      return i;
+    }
+  }
+  return -1;
 }
 
 
 // Returns a function that is restricted to invoking func once.
 // Repeat calls to the function return the value of the first call.
 function once(func) {
-  // CODE HERE
+
+  let count = 0; let result;
+  return function(value){
+    count += 1
+    if (count > 1){
+      return result;
+    } else {
+      result = func(value)
+      return result;
+    }
+  }
 
 }
 
@@ -78,7 +110,14 @@ function once(func) {
 //  return stored + current;
 // },1); → 4
 function reduce(array, callback, start) {
-  // CODE HERE
+  if (!start){
+    return array.reduce((acc, curr) => {
+      return callback(acc, curr)
+    })
+  }
+  return array.reduce((acc, curr) => {
+    return callback(acc, curr)
+  }, start)
 }
 
 // Takes an array and a function as arguments.
@@ -93,17 +132,25 @@ function reduce(array, callback, start) {
 // BONUS: use reduce in your answer
 function every(array, func) {
   // CODE HERE
-
+return array.every(num => func(num))
 }
 
 // Flattens a nested array.
 // flatten([1, [2, 3, [4]]]); → [1, 2, 3, [4]]
 function flatten(array) {
-  // CODE HERE
+  return array.flat(1)
 }
 
 // Recursively flattens a nested array.
 // flattenDeep([1, [2, 3, [4]]]); → [1, 2, 3, 4]
 function flattenDeep(array) {
-  // CODE HERE
+  const newArr = [];
+  array.forEach(num => {
+    if (Array.isArray(num)){
+      newArr.push(...flattenDeep(num))
+    } else {
+      newArr.push(num)
+    }
+  }) 
+  return newArr;
 }
