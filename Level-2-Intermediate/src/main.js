@@ -39,25 +39,55 @@ function trim(string) {
   // unshift(val) adds val to the beginning
   // shift() removes a value from the beginning and returns it
 // the goal of this problem is to reverse engineer what array methods are actually doing and create an object that has those methods
-function createArray() {
-  const obj = {
-    arr: [],
-    push: function(val){
-      this.arr.push(val)
-    },
-    pop: function(){
-      let popped = this.arr.pop();
-      return popped;
-    },
-    unshift: function(val){
-      this.arr.unshift(val)
-    },
-    shift: function(){
-      let shifted = this.arr.shift()
-      return shifted;
-    }
+// function CreateArray() {
+//   this.arr = [];
+//   this.index = 0;
+// }
 
+// CreateArray.prototype.push = function (val){
+//   this.arr[this.index] = val;
+//   return this
+// }
 
+// // CreateArray.prototype.push = function( value ) {
+// //   this.arr[ this.index++ ] = value;
+// //   return this;
+// // }
+// CreateArray.prototype.pop = function () {
+
+// }
+
+// CreateArray.prototype.shift = function (){
+
+// }
+
+// CreateArray.prototype.unshift = function(val){
+
+// }
+ 
+function createArray(){
+  this.length = 0;
+}
+createArray.prototype.push = function (val){
+  this[this.length] = val;
+  this.length++
+}
+createArray.prototype.pop = function (){
+  let result = this[this.length - 1] 
+  delete this[this.length - 1]
+  this.length--
+  return result;
+}
+createArray.prototype.unshift = function (...val){
+  for (let i = 0; i < val.length; i++){
+    this[i] = val[i]
+    this.length++
   } 
-  return obj;
+  
+  
+}
+createArray.prototype.shift = function(){
+  let result = this[0];
+  this.length--
+  return result;
 }
